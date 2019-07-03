@@ -30,8 +30,51 @@ main {
     margin: 0 auto;
 }
 
+/* --------- NAVIGATION --------- */
+nav {
+    margin: 0 auto;
+    text-align: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border: 1px solid #737475;
+  border-radius: 2px;
+  margin: 10px;
+}
+
+li a:hover {
+  background-color: #5e5f60;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+/* --------- HERO --------- */
 header img {
     width: 100vw;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* --------- SECTIONS --------- */
@@ -90,6 +133,7 @@ button {
     border: none;
     padding: 8px 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .green button {
@@ -102,6 +146,10 @@ button {
 
 .red button {
     background-color: #832916;
+}
+
+button:hover {
+  font-weight: bold;
 }
 
 
@@ -122,6 +170,10 @@ button {
     float: right;
     margin: 10px;
     margin-right: 50px;
+    text-decoration: none;
+}
+.read-more:hover {
+  font-weight: bold;
 }
 
-/* --------- COULD ADD MEDIA QUERIES IF YOU WANT --------- */
+/* --------- COULD ADD MEDIA QUERIES IF YOU WOULD LIKE --------- */
