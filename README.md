@@ -2,7 +2,7 @@
 This is a code test of a PNG file converted to HTML and CSS.
 
 ## Live Demo
-TBD
+https://lesleydreyer.github.io/code-test/index.html
 
 ## Screenshots
 <img src="images/html_test.png"/>
