@@ -73,9 +73,29 @@ li a:hover {
 /* --------- HERO --------- */
 header img {
     width: 100vw;
-    margin: 0 auto;
-    text-align: center;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+
 }
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("../images/hero-pic.jpg");
+
+  /* Set a specific height */
+  width: 100vw;
+  height: 100vh;
+  float: left;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 /* --------- SECTIONS --------- */
 
