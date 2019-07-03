@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Code Test</title>
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -12,9 +12,101 @@
 </head>
 
 <body>
-    <nav role="navigation"></nav>
+    <nav role="navigation">
+        <ul>
+            <li><a href="#">Homepage</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">External</a></li>
+        </ul>
+    </nav>
+
+    <header role="banner">
+        <div class="row">
+            <div class="col-12">
+                <img src="images/hero-pic.jpg" alt="Conquer the World" />
+            </div>
+        </div>
+    </header>
     <main role="main">
-        <h1>Content</h1>
+        <div class="row">
+            <div class="col-3">
+                <section role="region">
+                    <img src="images/subfeat-1-bootstrap.jpg" alt="Bootstrap v3.3.6" />
+                    <h2>Bootstrap v3.3.6</h2>
+                    <p>
+                        Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus
+                        ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis
+                        lectus magna, ornare ac scelerisque.
+                    </p>
+                    <!--wasn't sure if you'd prefer this as an a tag or  button, I left as button since the PNG said button for 2 things in the row but could change to a tag and style with css you prefer since I've read that could be better for SEO -->
+                    <button>Button Green</button>
+            </div>
+            <div class="col-3">
+                <section role="region">
+                    <img src="images/subfeat-2-responsive-design.jpg" alt="Responsive Design" />
+                    <h2>Responsive Design</h2>
+                    <p>
+                        Conquer Template is provided by templatemo for free of charge. You can use this template for any
+                        kind of website. No credit link is required. All images by Unsplash. Thank you for visiting our
+                        website. Please come again!
+                    </p>
+                    <!--wasn't sure if you'd prefer this as an a tag or  button, I left as button since the PNG said button for 2 things in the row but could change to a tag and style with css you prefer since I've read that could be better for SEO -->
+                    <button>See Details</button>
+                </section>
+            </div>
+            <div class="col-3">
+                <section role="region">
+                    <img src="images/subfeat-3-parallax-layout.jpg" alt="Bootstrap v3.3.6" />
+                    <h2>Parallax Layout</h2>
+                    <p>
+                        Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus
+                        ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis
+                        lectus magna, ornare ac scelerisque.
+                    </p>
+                    <!--wasn't sure if you'd prefer this as an a tag or  button, I left as button since the PNG said button for 2 things in the row but could change to a tag and style with css you prefer since I've read that could be better for SEO -->
+                    <button>Button Red</button>
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <section role="region">
+                    <img src="images/two-col-left.jpg" alt="Two Column Left Pic" />
+                    <h2>Two Column Left Side</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut
+                        cursus em euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius
+                        suscipit. Sed in leo sit amet velit finibus pretium.
+                    </p>
+                    <p>
+                        Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed
+                        tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissium eu orci. Sed vitae venenatis
+                        magna, in blandit metus.
+                    </p>
+                </section>
+            </div>
+            <div class="col-6">
+                <section role="region">
+                    <img src="images/two-col-right.jpg" alt="Two Column Right Pic" />
+                    <h2>Two Column Right Side</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut
+                        cursus em euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius
+                        suscipit. Sed in leo sit amet velit finibus pretium.
+                    </p>
+                    <p>
+                        Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed
+                        tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissium eu orci. Sed vitae venenatis
+                        magna, in blandit metus.
+                    </p>
+                    <!-- wasn't sure if you'd prefer this as an a tag or button, I did it as an a tag to demo how it could be done but could change if you prefer -->
+                    <a href="#">Read More</a>
+                </section>
+            </div>
+        </div>
     </main>
 </body>
 
