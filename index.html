@@ -9,6 +9,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="./styles/index.css" rel="stylesheet" type="text/css">
     <link href="./styles/float-grid.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -31,9 +33,10 @@
     </header>
     <main role="main">
         <div class="row">
-            <div class="col-3">
-                <section role="region">
+            <div class="col-4 green flexcontainer">
+                <section role="region flexcol">
                     <img src="images/subfeat-1-bootstrap.jpg" alt="Bootstrap v3.3.6" />
+                    <div class="section-text">
                     <h2>Bootstrap v3.3.6</h2>
                     <p>
                         Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus
@@ -41,11 +44,15 @@
                         lectus magna, ornare ac scelerisque.
                     </p>
                     <!--wasn't sure if you'd prefer this as an a tag or  button, I left as button since the PNG said button for 2 things in the row but could change to a tag and style with css you prefer since I've read that could be better for SEO -->
-                    <button>Button Green</button>
+                    <div class="center">
+                        <button>Button Green</button>
+                    </div>
+                </div>
             </div>
-            <div class="col-3">
-                <section role="region">
+            <div class="col-4 blue flexcontainer">
+                <section role="region flexcol">
                     <img src="images/subfeat-2-responsive-design.jpg" alt="Responsive Design" />
+                    <div class="section-text">
                     <h2>Responsive Design</h2>
                     <p>
                         Conquer Template is provided by templatemo for free of charge. You can use this template for any
@@ -53,12 +60,16 @@
                         website. Please come again!
                     </p>
                     <!--wasn't sure if you'd prefer this as an a tag or  button, I left as button since the PNG said button for 2 things in the row but could change to a tag and style with css you prefer since I've read that could be better for SEO -->
+                    <div class="center">
                     <button>See Details</button>
+                    </div>
+                </div>
                 </section>
             </div>
-            <div class="col-3">
-                <section role="region">
+            <div class="col-4 red flexcontainer">
+                <section role="region flexcol">
                     <img src="images/subfeat-3-parallax-layout.jpg" alt="Bootstrap v3.3.6" />
+                    <div class="section-text">
                     <h2>Parallax Layout</h2>
                     <p>
                         Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus
@@ -66,16 +77,20 @@
                         lectus magna, ornare ac scelerisque.
                     </p>
                     <!--wasn't sure if you'd prefer this as an a tag or  button, I left as button since the PNG said button for 2 things in the row but could change to a tag and style with css you prefer since I've read that could be better for SEO -->
+                    <div class="center">
                     <button>Button Red</button>
+                    </div>
+                </div>
                 </section>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 twocol-section">
                 <section role="region">
                     <img src="images/two-col-left.jpg" alt="Two Column Left Pic" />
-                    <h2>Two Column Left Side</h2>
+                    <div class="section-text">
+                    <h2 class="center">Two Column Left Side</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut
                         cursus em euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius
@@ -86,12 +101,14 @@
                         tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissium eu orci. Sed vitae venenatis
                         magna, in blandit metus.
                     </p>
+                </div>
                 </section>
             </div>
-            <div class="col-6">
+            <div class="col-6 twocol-section">
                 <section role="region">
                     <img src="images/two-col-right.jpg" alt="Two Column Right Pic" />
-                    <h2>Two Column Right Side</h2>
+                    <div class="section-text">
+                    <h2 class="center">Two Column Right Side</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut
                         cursus em euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius
@@ -100,10 +117,12 @@
                     <p>
                         Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed
                         tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissium eu orci. Sed vitae venenatis
-                        magna, in blandit metus.
+                        magna, in blandit metus.   
+                          <!-- wasn't sure if you'd prefer this as an a tag or button, I did it as an a tag to demo how it could be done but could change if you prefer -->
+                        <a href="#" class="button read-more">Read More</a>
                     </p>
-                    <!-- wasn't sure if you'd prefer this as an a tag or button, I did it as an a tag to demo how it could be done but could change if you prefer -->
-                    <a href="#">Read More</a>
+                    <div class="clear"></div>
+                </div>
                 </section>
             </div>
         </div>
