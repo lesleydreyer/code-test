@@ -83,15 +83,10 @@ header img {
 }
 
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: url("../images/hero-pic.jpg");
-
-  /* Set a specific height */
   width: 100vw;
   height: 100vh;
   float: left;
-
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,6 +188,7 @@ button:hover {
     margin-right: 50px;
     text-decoration: none;
 }
+
 .read-more:hover {
   font-weight: bold;
 }
