@@ -96,6 +96,7 @@ header img {
 /* --------- SECTIONS --------- */
 
 
+/*Could also do flexbox or the grid but wasn't sure since not supported by older browsers*/
 section {
     background-color: #f1f1f1;
     margin-top: 20px;
@@ -105,14 +106,7 @@ section {
     width: 100%;
 }
 
-.flexcontainer {
-  display: flex;
-  width: 100%;
-}
-.flexcol {
-  flex: 1;
-  padding: 16px;
-}
+
 
 
 /* --------- SECTION IMAGES --------- */
